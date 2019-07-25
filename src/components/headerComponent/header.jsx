@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import image from "../Images/LogoMakr_8VhLVY.png";
 
+/**
+ * This class renders the main header for the website. It also provides
+ * credit to the original data source.
+ */
 class Header extends Component {
   render() {
+    // Link to OpenBreweryAPI
     const INFO_SOURCE_URL = "https://www.openbrewerydb.org/";
 
     return (

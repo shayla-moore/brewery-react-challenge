@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+/**
+ * This class creates and renders the collapsible part of a Card object
+ * most of the data about a brewery as well as a link to the Google Maps
+ * portion of the app is included in this object.
+ */
 class CardBody extends Component {
   constructor() {
     super();
@@ -11,6 +16,9 @@ class CardBody extends Component {
     };
   }
 
+  /**
+   * This function allows the user to toggle the collapsible feature
+   */
   toggle() {
     this.setState({
       open: !this.state.open

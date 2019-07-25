@@ -2,9 +2,21 @@ import React, { Component } from "react";
 import axios from "axios";
 import Card from "./cardComponent/card";
 
-const API = "https://api.openbrewerydb.org/breweries?";
-const DEFAULT_QUERY = "by_city=Hanover&by_state=Pennsylvania";
+/**
+ * API variable holds the link to the OpenBreweryAPI
+ */
+const API = 'https://api.openbrewerydb.org/breweries?';
+/**
+ * This query gather data by city and state for Hanover, PA
+ */
+const DEFAULT_QUERY = 'by_city=Hanover&by_state=Pennsylvania';
 
+/**
+ * A class that fetches Brewery data from OpenBreweryAPI then
+ * makes a list of Card objects.
+ *
+ * @param state The state is set to an array of Brewery objects
+ */
 class FetchBreweries extends Component {
   constructor(props) {
     super(props);
@@ -14,6 +26,10 @@ class FetchBreweries extends Component {
     };
   }
 
+  /**
+   * This function takes an URL and a query and gets data from
+   * the API and sets the data to the breweries list.
+   */
   componentDidMount() {
     axios.get(API + DEFAULT_QUERY).then(res => {
       console.log(res);
@@ -21,6 +37,10 @@ class FetchBreweries extends Component {
     });
   }
 
+  /**
+   * Uses the data stored in state.breweries and renders a list of
+   * Card objects that will use this data as props for its own Component
+   */
   render() {
     return (
       <div className="container-fluid">

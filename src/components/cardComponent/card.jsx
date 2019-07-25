@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import CardHeader from "./cardHeaderComponent/cardHeader";
 import CardBody from "./cardBodyComponent/cardBody";
 
+/**
+ * This class creates a card object and passes information to a 
+ * collapsible CardBody component within it.
+ */
 class Card extends Component {
-  sendData = () => {
-    this.props.parentCallback(true);
-  };
-
   render() {
     return (
       <article className="card">

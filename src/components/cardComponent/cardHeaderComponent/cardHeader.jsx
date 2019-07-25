@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+/**
+ * This class renders the header component of the Card object
+ */
 class CardHeader extends Component {
   render() {
     //Free Stock Photo

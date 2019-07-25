@@ -5,6 +5,9 @@ import GoogleMapPage from "./components/googleMapPageComponent/googleMapPage";
 import "./Assets/css/default.min.css";
 import "./Assets/css/card.min.css";
 
+/**
+ * The main function for the app sets up the Router between pages
+ */
 function App() {
   return (
     <div className="App">
