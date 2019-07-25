@@ -1,8 +1,8 @@
 # Coding Challenge for andculture
 ## Introduction
-The aim of this project was to create a single page application using React to display a list of breweries with the ability to click on an item from the list to view more details on that brewery. 
+The aim of this project was to create a single page application using React to display a list of breweries with the ability to click on an item from the list to view more details on that brewery. My personal aim was also to learn ReactJs/JavaScript as this is my first ReactJs/JavaScript project.
 
-[Here is the Application](https://react-brewery-challenge.herokuapp.com/)
+[Here is the Application which is hosted on Heroku](https://react-brewery-challenge.herokuapp.com/)
 
 ## Technologies
 - ReactJs
@@ -17,6 +17,7 @@ The main page lists the breweries in Card components. When more Cards are on the
 
 ### Brewery Information
 ![Card Component](https://i.imgur.com/jOqS7BE.jpg)
+
 A close up of a Brewery Card initially just shows the Brewery name, but upon pressing the "Find Out More" Button, more information is revealed such as: 
 
 - The Type of Brewery
