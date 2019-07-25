@@ -6,7 +6,8 @@ import Header from "../headerComponent/header";
 /**
  * This is the API key that allows this application to use google-maps-react
  */
-const GOOGLE_API_KEY = "AIzaSyBziNyl5u9MpTP7QvfgcpHI_pb-rWNJMZc";
+//This is removed for security purposes
+const GOOGLE_API_KEY = 'PUT GOOGLE API KEY HERE';
 
 /**
  * This class renders the Google Maps data for a brewery of the User's choice
