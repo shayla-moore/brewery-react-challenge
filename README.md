@@ -28,6 +28,7 @@ A close up of a Brewery Card initially just shows the Brewery name, but upon pre
 ### Google Maps Page
 ![Google Maps Page](https://i.imgur.com/aQDDMcJ.jpg)
 When the "Find this Brewery on a Map" link is clicked, a page with the Brewery on a Google Map is provided within the application. The user can zoom in and zoom out as they please. A link to go back to the main page is also provided.
+**API key Removed for the Public Repo**
 
 ## Future To-Do's
 - Learning more ways to style the SCSS and ReactJs properly as this is my first ReactJs project
