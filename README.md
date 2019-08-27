@@ -1,4 +1,4 @@
-# Coding Challenge for andculture
+# Brewery ReactJS Project
 ## Introduction
 The aim of this project was to create a single page application using React to display a list of breweries with the ability to click on an item from the list to view more details on that brewery. My personal aim was also to learn ReactJs/JavaScript as this is my first ReactJs/JavaScript project.
 
